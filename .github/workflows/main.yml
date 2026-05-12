@@ -22,4 +22,4 @@ jobs:
         with:
           push: true
           target: final
-          tags: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+          tags: ${{ vars.DOCKER_USERNAME }}/devops-week10:latest
